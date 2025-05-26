@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/bonjour": "^3.5.13"
+  }
+}

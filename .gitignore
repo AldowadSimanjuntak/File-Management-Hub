@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.sqlite3
+/backend/venv/
+/backend/env/
+/backend/media/
+/backend/staticfiles/
+.env
+*.log
+
+# Node / React
+node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.env.local
+/frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env*
+!.env.example
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+/frontend/coverage/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.bak
+*.tmp
+*~
+
+#cursor files
+.cursor
+assessment.cursorrules
+interview-context.md
+base_project_requirements.md
